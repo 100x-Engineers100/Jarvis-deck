@@ -1260,10 +1260,11 @@
             display: flex;
             align-items: baseline;
             gap: 8px;
+            flex-wrap: wrap;
         }
 
         .impact-old {
-            font-size: 24px;
+            font-size: 28px;
             font-weight: 700;
             color: #555;
             text-decoration: line-through;
@@ -1277,15 +1278,15 @@
         }
 
         .impact-new {
-            font-size: 38px;
+            font-size: 52px;
             font-weight: 700;
             color: var(--text);
             line-height: 1;
         }
 
         .impact-unit {
-            font-size: 14px;
-            font-weight: 700;
+            font-size: 16px;
+            font-weight: 300;
             color: var(--text-muted);
         }
 
@@ -1515,8 +1516,8 @@
             <button class="nav-btn" data-agent="rachel">Rachel</button>
             <button class="nav-btn" data-agent="chandler">Chandler</button>
             <button class="nav-btn" data-agent="pam">Pam</button>
-            <button class="nav-btn" data-agent="richard">Richard</button>
             <button class="nav-btn" data-agent="sheldon">Sheldon</button>
+            <button class="nav-btn" data-agent="richard">Richard</button>
         </div>
     </nav>
 
@@ -1531,13 +1532,13 @@
         <div class="hud-scanline"></div>
         <div class="hero-pre">AI EMPLOYEE SYSTEM</div>
         <div class="hero-title">Jarvis</div>
-        <div class="hero-sub">7 AI agents. One orchestrator. 8-12 hours reclaimed every week.</div>
+        <div class="hero-sub">7 AI agents. One orchestrator. 20 hours reclaimed every week.</div>
 
         <div class="hero-stats">
             <div class="hero-stat"><span class="hs-num" data-count="7">0</span><span class="hs-label">AI Agents</span>
             </div>
             <div class="hs-divider"></div>
-            <div class="hero-stat"><span class="hs-num" data-count="12">0</span><span class="hs-label">Hrs/Week
+            <div class="hero-stat"><span class="hs-num" data-count="20">0</span><span class="hs-label">Hrs/Week
                     Saved</span></div>
             <div class="hs-divider"></div>
             <div class="hero-stat"><span class="hs-num" data-count="95">0</span><span class="hs-label">%
@@ -1621,13 +1622,13 @@
                     <div class="a-name">Pam</div>
                     <div class="a-role">Email</div>
                 </div>
-                <div class="org-agent" data-agent="richard">
-                    <div class="a-name">Richard</div>
-                    <div class="a-role">Hiring</div>
-                </div>
                 <div class="org-agent" data-agent="sheldon">
                     <div class="a-name">Sheldon</div>
                     <div class="a-role">Discord</div>
+                </div>
+                <div class="org-agent" data-agent="richard">
+                    <div class="a-name">Richard</div>
+                    <div class="a-role">Hiring</div>
                 </div>
             </div>
         </div>
@@ -1645,9 +1646,12 @@
                     <div class="opt-letter">O</div>
                     <div class="opt-word">Operating Model</div>
                     <ul class="opt-bullets">
-                        <li>I need to stay current with AI developments to maintain my credibility as CTO</li>
-                        <li>My audience must see me as the go-to source for what's real in AI, not hype</li>
-                        <li>If I'm not informed, I cannot lead</li>
+                        <li><strong>Role:</strong> CTO of 100xEngineers — responsible for setting the technical
+                            direction for 50,000+ engineers</li>
+                        <li><strong>Success looks like:</strong> My audience trusts me as the go-to source for what's
+                            real in AI, not hype</li>
+                        <li><strong>Why it breaks:</strong> If I miss a key development, I lose credibility. The market
+                            moves daily — my knowledge must too</li>
                     </ul>
                     <div class="opt-key">→ CREDIBILITY = CURRENCY</div>
                 </div>
@@ -1706,8 +1710,8 @@
                         <li>Consistent coverage — zero fatigue</li>
                     </ul>
                     <div class="ba-stat">
-                        <div class="num">&lt; 1 min</div>
-                        <div class="unit">DOWN FROM 45-60 MIN/DAY</div>
+                        <div class="num">2 min</div>
+                        <div class="unit">DOWN FROM 60 MIN/DAY</div>
                     </div>
                 </div>
             </div>
@@ -1736,8 +1740,8 @@
                         Content multiplies.</p>
                     <div class="cta-metrics">
                         <div class="cta-metric">
-                            <div class="n">95%</div>
-                            <div class="l">TIME SAVED</div>
+                            <div class="n">~7 hrs</div>
+                            <div class="l">SAVED / WEEK</div>
                         </div>
                         <div class="cta-metric">
                             <div class="n">3x</div>
@@ -1796,7 +1800,7 @@
                     style="grid-column:1/8;grid-row:1/2;background:linear-gradient(135deg,rgba(20,20,20,0.8),rgba(30,30,30,0.5));backdrop-filter:blur(20px);">
                     <div class="tl" style="color:var(--text-dim);">DAILY TIME RECLAIMED</div>
                     <div class="impact-stat"><span class="impact-old">60 min</span><span
-                            class="impact-arrow">→</span><span class="impact-new">&lt;1</span><span
+                            class="impact-arrow">→</span><span class="impact-new">2</span><span
                             class="impact-unit">min</span></div>
                 </div>
                 <div class="bt reveal"
@@ -1867,11 +1871,14 @@
                     <div class="opt-letter">O</div>
                     <div class="opt-word">Operating Model</div>
                     <ul class="opt-bullets">
-                        <li>My Twitter/X presence is the distribution channel for 100xEngineers</li>
-                        <li>Consistent daily posting builds audience trust</li>
-                        <li>One silent week erodes months of momentum</li>
+                        <li><strong>Role:</strong> Twitter/X is the primary distribution channel — it's how builders
+                            discover 100xEngineers</li>
+                        <li><strong>Success looks like:</strong> Daily posting in my voice that grows audience trust and
+                            drives enrollment</li>
+                        <li><strong>Why it breaks:</strong> One silent week erodes momentum that took months to build.
+                            Consistency is the product.</li>
                     </ul>
-                    <div class="opt-key">→ CONSISTENCY IS THE PRODUCT</div>
+                    <div class="opt-key">→ DISTRIBUTION DEPENDS ON CONSISTENCY</div>
                 </div>
                 <div class="opt-card reveal">
                     <div class="opt-letter">P</div>
@@ -1882,7 +1889,7 @@
                         <li>I stare at a blank screen</li>
                         <li>I write a tweet, rewrite it, doubt it</li>
                         <li>Sometimes I post, sometimes I don't — no time</li>
-                        <li>This costs me 30-45 minutes per day</li>
+                        <li>This costs me 40 minutes per day</li>
                     </ul>
                     <div class="opt-key">→ TEXTBOOK AUTOMATABLE</div>
                 </div>
@@ -1908,7 +1915,7 @@
                     <div class="ba-label">BEFORE KELLY</div>
                     <h3>Blank Screen.<br />Writer's Block. Daily.</h3>
                     <ul class="ba-list">
-                        <li>Read through AI news (45-60 min already)</li>
+                        <li>Read through AI news (already 60 min daily)</li>
                         <li>Pick 1-2 topics to tweet about</li>
                         <li>Write, rewrite, doubt, delete</li>
                         <li>Sometimes post, sometimes skip</li>
@@ -1930,7 +1937,7 @@
                     </ul>
                     <div class="ba-stat">
                         <div class="num">2 min</div>
-                        <div class="unit">DOWN FROM 30-45 MIN/DAY</div>
+                        <div class="unit">DOWN FROM 40 MIN/DAY</div>
                     </div>
                 </div>
             </div>
@@ -1959,8 +1966,8 @@
                     <p>No blank screen. No writer's block. No silent weeks. Copy-paste ready, voice-matched.</p>
                     <div class="cta-metrics">
                         <div class="cta-metric">
-                            <div class="n">93%</div>
-                            <div class="l">TIME SAVED</div>
+                            <div class="n">~4.5 hrs</div>
+                            <div class="l">SAVED / WEEK</div>
                         </div>
                         <div class="cta-metric">
                             <div class="n">Daily</div>
@@ -2018,7 +2025,7 @@
                 <div class="bt reveal"
                     style="grid-column:1/8;grid-row:1/2;background:linear-gradient(135deg,rgba(20,20,20,0.8),rgba(30,30,30,0.5));backdrop-filter:blur(20px);">
                     <div class="tl" style="color:var(--text-dim);">DAILY TIME RECLAIMED</div>
-                    <div class="impact-stat"><span class="impact-old">45 min</span><span
+                    <div class="impact-stat"><span class="impact-old">40 min</span><span
                             class="impact-arrow">→</span><span class="impact-new">2</span><span class="impact-unit">min
                             reviewing</span></div>
                 </div>
@@ -2083,11 +2090,14 @@
                     <div class="opt-letter">O</div>
                     <div class="opt-word">Operating Model</div>
                     <ul class="opt-bullets">
-                        <li>LinkedIn is my credibility channel — founders and CTOs evaluate my depth here</li>
-                        <li>One substantive post/day shows I'm a practitioner, not a commentator</li>
-                        <li>Twitter for quick takes, LinkedIn for professional authority</li>
+                        <li><strong>Role:</strong> LinkedIn is the credibility layer — founders, CTOs, and partners
+                            evaluate my depth here</li>
+                        <li><strong>Success looks like:</strong> One substantive post/day that positions me as a
+                            practitioner, not a commentator</li>
+                        <li><strong>Why it breaks:</strong> Rehashing Twitter content fails — LinkedIn audience expects
+                            depth, not quick takes</li>
                     </ul>
-                    <div class="opt-key">→ CREDIBILITY OVER CLOUT</div>
+                    <div class="opt-key">→ DIFFERENT AUDIENCE, DIFFERENT VALUE</div>
                 </div>
                 <div class="opt-card reveal">
                     <div class="opt-letter">P</div>
@@ -2098,7 +2108,7 @@
                         <li>I format it for LinkedIn (different from Twitter)</li>
                         <li>I review professional tone vs builder tone</li>
                         <li>LinkedIn and Twitter often had the same content rehashed</li>
-                        <li>This costs me 20-30 minutes per day</li>
+                        <li>This costs me 25 minutes per day</li>
                     </ul>
                     <div class="opt-key">→ SAME INPUT, DIFFERENT TRANSFORMATION</div>
                 </div>
@@ -2129,7 +2139,7 @@
                         <li>Format differently for scroll behavior</li>
                         <li>Review professional vs builder tone</li>
                         <li>LinkedIn audience getting same content as Twitter</li>
-                        <li>20-30 minutes per day on LinkedIn alone</li>
+                        <li>25 minutes per day on LinkedIn alone</li>
                     </ul>
                 </div>
                 <div class="ba-arrow reveal">→</div>
@@ -2146,7 +2156,7 @@
                     </ul>
                     <div class="ba-stat">
                         <div class="num">2 min</div>
-                        <div class="unit">DOWN FROM 20-30 MIN/DAY</div>
+                        <div class="unit">DOWN FROM 25 MIN/DAY</div>
                     </div>
                 </div>
             </div>
@@ -2176,8 +2186,8 @@
                     </p>
                     <div class="cta-metrics">
                         <div class="cta-metric">
-                            <div class="n">90%</div>
-                            <div class="l">TIME SAVED</div>
+                            <div class="n">~2.5 hrs</div>
+                            <div class="l">SAVED / WEEK</div>
                         </div>
                         <div class="cta-metric">
                             <div class="n">0</div>
@@ -2235,7 +2245,7 @@
                 <div class="bt reveal"
                     style="grid-column:1/7;grid-row:1/2;background:linear-gradient(135deg,rgba(20,20,20,0.8),rgba(30,30,30,0.5));backdrop-filter:blur(20px);">
                     <div class="tl" style="color:var(--text-dim);">DAILY TIME RECLAIMED</div>
-                    <div class="impact-stat"><span class="impact-old">30 min</span><span
+                    <div class="impact-stat"><span class="impact-old">25 min</span><span
                             class="impact-arrow">→</span><span class="impact-new">2</span><span class="impact-unit">min
                             review</span></div>
                 </div>
@@ -2301,11 +2311,14 @@
                     <div class="opt-letter">O</div>
                     <div class="opt-word">Operating Model</div>
                     <ul class="opt-bullets">
-                        <li>Blog is my long-term SEO and authority play</li>
-                        <li>A Dev.to post ranking for "how to build X with LLMs" compounds monthly</li>
-                        <li>One technical blog/week, consistently, without 2-3 hours of writing</li>
+                        <li><strong>Role:</strong> Blog is the long-term SEO engine — posts that rank compound in value
+                            for months</li>
+                        <li><strong>Success looks like:</strong> One technical blog/week on Dev.to/Hashnode that drives
+                            organic traffic to 100xEngineers</li>
+                        <li><strong>Why it breaks:</strong> This is the first thing dropped when I'm busy — and dropping
+                            it kills months of SEO momentum</li>
                     </ul>
-                    <div class="opt-key">→ COMPOUNDING AUTHORITY</div>
+                    <div class="opt-key">→ COMPOUNDING AUTHORITY, FRAGILE CONSISTENCY</div>
                 </div>
                 <div class="opt-card reveal">
                     <div class="opt-letter">P</div>
@@ -2363,8 +2376,8 @@
                         <li>Markdown, paste and publish</li>
                     </ul>
                     <div class="ba-stat">
-                        <div class="num">0 hrs</div>
-                        <div class="unit">WRITING — DOWN FROM 2-3 HRS/WEEK</div>
+                        <div class="num">10 min</div>
+                        <div class="unit">REVIEW — DOWN FROM 3 HRS/WEEK</div>
                     </div>
                 </div>
             </div>
@@ -2393,8 +2406,8 @@
                     </p>
                     <div class="cta-metrics">
                         <div class="cta-metric">
-                            <div class="n">100%</div>
-                            <div class="l">TIME SAVED</div>
+                            <div class="n">~3 hrs</div>
+                            <div class="l">SAVED / WEEK</div>
                         </div>
                         <div class="cta-metric">
                             <div class="n">Weekly</div>
@@ -2453,8 +2466,8 @@
                     style="grid-column:1/7;grid-row:1/2;background:linear-gradient(135deg,rgba(20,20,20,0.8),rgba(30,30,30,0.5));backdrop-filter:blur(20px);">
                     <div class="tl" style="color:var(--text-dim);">WEEKLY TIME RECLAIMED</div>
                     <div class="impact-stat"><span class="impact-old">3 hrs</span><span
-                            class="impact-arrow">→</span><span class="impact-new">0</span><span class="impact-unit">hrs
-                            writing</span></div>
+                            class="impact-arrow">→</span><span class="impact-new">10</span><span class="impact-unit">min
+                            review</span></div>
                 </div>
                 <div class="bt reveal"
                     style="grid-column:7/13;grid-row:1/3;background:linear-gradient(135deg,rgba(10,30,10,0.8),rgba(15,40,15,0.6));backdrop-filter:blur(20px);border-color:rgba(60,140,60,0.15);">
@@ -2469,7 +2482,7 @@
                     <div class="ts">Options to choose from</div>
                 </div>
                 <div class="bt reveal"
-                    style="grid-column:4/7;grid-row:2/3;background:linear-gradient(135deg,rgba(249,104,70,0.06),rgba(249,104,70,0.02));backdrop-filter:blur(20px);border-color:rgba(249,104,70,0.1);">
+                    style="grid-column:4/8;grid-row:2/3;background:linear-gradient(135deg,rgba(249,104,70,0.06),rgba(249,104,70,0.02));backdrop-filter:blur(20px);border-color:rgba(249,104,70,0.1);">
                     <div class="tl" style="color:var(--coral);">INPUT</div>
                     <div class="tv" style="color:var(--coral);font-size:18px;">7 days of DAILY-INTEL</div>
                     <div class="ts">Full week of Dwight's research</div>
@@ -2517,11 +2530,14 @@
                     <div class="opt-letter">O</div>
                     <div class="opt-word">Operating Model</div>
                     <ul class="opt-bullets">
-                        <li>My inbox and calendar are the operational backbone of my CTO role</li>
-                        <li>Missed investor emails and buried escalations are leadership failures</li>
-                        <li>My attention should go to decisions, not email triage</li>
+                        <li><strong>Role:</strong> As CTO, my inbox and calendar are the operational backbone —
+                            investors, students, partners all come through here</li>
+                        <li><strong>Success looks like:</strong> Zero missed investor emails, zero scheduling conflicts,
+                            attention spent on decisions only</li>
+                        <li><strong>Why it breaks:</strong> 50+ emails/day means high-priority signals get buried under
+                            newsletters and CCs</li>
                     </ul>
-                    <div class="opt-key">→ ATTENTION ON DECISIONS, NOT TRIAGE</div>
+                    <div class="opt-key">→ MY ATTENTION IS THE BOTTLENECK</div>
                 </div>
                 <div class="opt-card reveal">
                     <div class="opt-letter">P</div>
@@ -2533,7 +2549,7 @@
                         <li>I check Calendar for conflicts before accepting meetings</li>
                         <li>I manually reply to scheduling requests</li>
                         <li>I often miss important emails in the noise</li>
-                        <li>This costs me 30-45 minutes per day</li>
+                        <li>This costs me 30 minutes per day</li>
                     </ul>
                     <div class="opt-key">→ HIGH-VALUE SIGNAL BURIED IN NOISE</div>
                 </div>
@@ -2581,8 +2597,8 @@
                         <li>Never sends without WhatsApp approval</li>
                     </ul>
                     <div class="ba-stat">
-                        <div class="num">5 min</div>
-                        <div class="unit">DOWN FROM 30-45 MIN/DAY</div>
+                        <div class="num">3 min</div>
+                        <div class="unit">DOWN FROM 30 MIN/DAY</div>
                     </div>
                 </div>
             </div>
@@ -2611,8 +2627,8 @@
                         replies ready. Never sends without your say.</p>
                     <div class="cta-metrics">
                         <div class="cta-metric">
-                            <div class="n">85%</div>
-                            <div class="l">NOISE FILTERED</div>
+                            <div class="n">~2 hrs</div>
+                            <div class="l">SAVED / WEEK</div>
                         </div>
                         <div class="cta-metric">
                             <div class="n">0</div>
@@ -2678,8 +2694,8 @@
                 <div class="bt reveal"
                     style="grid-column:6/13;grid-row:1/2;background:linear-gradient(135deg,rgba(20,20,20,0.8),rgba(30,30,30,0.5));backdrop-filter:blur(20px);">
                     <div class="tl" style="color:var(--text-dim);">DAILY TIME RECLAIMED</div>
-                    <div class="impact-stat"><span class="impact-old">45 min</span><span
-                            class="impact-arrow">→</span><span class="impact-new">5</span><span
+                    <div class="impact-stat"><span class="impact-old">30 min</span><span
+                            class="impact-arrow">→</span><span class="impact-new">3</span><span
                             class="impact-unit">min</span></div>
                 </div>
                 <div class="bt reveal"
@@ -2705,7 +2721,7 @@
                 </div>
                 <div class="bt bt-light reveal" style="grid-column:1/4;grid-row:5/7;">
                     <div class="tl">FILTERED</div>
-                    <div class="tv" style="font-size:36px;">85%</div>
+                    <div class="tv" style="font-size:36px;">90%</div>
                     <div class="ts">noise removed daily</div>
                 </div>
                 <div class="bt reveal"
@@ -2724,227 +2740,6 @@
         </div>
     </section>
 
-    <!-- ====== RICHARD ====== -->
-    <section class="agent-section" id="agent-richard">
-        <div class="slide slide-opt">
-            <div class="opt-header">
-                <h2 class="reveal"><span>OPT</span> Framework — Richard</h2>
-                <p class="reveal">Why Richard exists — and why it works</p>
-            </div>
-            <div class="opt-grid">
-                <div class="opt-card reveal">
-                    <div class="opt-letter">O</div>
-                    <div class="opt-word">Operating Model</div>
-                    <ul class="opt-bullets">
-                        <li>100xEngineers' quality depends on cohort quality</li>
-                        <li>Wrong candidates lower engagement, slow the class, damage my brand</li>
-                        <li>Screen fast, screen consistently, surface builders not resume-polishers</li>
-                    </ul>
-                    <div class="opt-key">→ COHORT QUALITY = PRODUCT QUALITY</div>
-                </div>
-                <div class="opt-card reveal">
-                    <div class="opt-letter">P</div>
-                    <div class="opt-word">Process</div>
-                    <ul class="opt-bullets">
-                        <li>I open Google Sheets with candidate applications</li>
-                        <li>I read each row: 50-200 candidates per cohort</li>
-                        <li>I check GitHub profiles, portfolios, LinkedIn manually</li>
-                        <li>I score based on gut feeling + loose criteria</li>
-                        <li>I make a shortlist and write notes</li>
-                        <li>This costs me 1-2 hours per session</li>
-                        <li>Inconsistent — bias toward polished resumes over builders</li>
-                    </ul>
-                    <div class="opt-key">→ BIAS TOWARD RESUMES OVER REAL ABILITY</div>
-                </div>
-                <div class="opt-card reveal">
-                    <div class="opt-letter">T</div>
-                    <div class="opt-word">Task</div>
-                    <ul class="opt-bullets">
-                        <li>Pull candidate data from Google Sheets</li>
-                        <li>Score each (GitHub activity, project quality, builder mindset)</li>
-                        <li>Strong Yes / Maybe / No classification</li>
-                        <li>2-3 line notes per shortlisted candidate</li>
-                        <li>Flag red flags (no projects, keyword stuffing)</li>
-                        <li>Produce ranked report — Sid approves</li>
-                    </ul>
-                    <div class="opt-key">→ JUDGMENT STAYS HUMAN. SCREENING DOESN'T.</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="slide slide-ba">
-            <div class="ba-container">
-                <div class="ba-card ba-before reveal">
-                    <div class="ba-label">BEFORE RICHARD</div>
-                    <h3>Row by Row.<br />200 Applications.</h3>
-                    <ul class="ba-list">
-                        <li>Open Sheets, read each row manually</li>
-                        <li>50-200 candidates per cohort</li>
-                        <li>Check GitHub, portfolios, LinkedIn by hand</li>
-                        <li>Score based on gut feeling</li>
-                        <li>Make shortlist, write notes</li>
-                        <li>Bias toward polished resumes</li>
-                    </ul>
-                </div>
-                <div class="ba-arrow reveal">→</div>
-                <div class="ba-card ba-after reveal">
-                    <div class="ba-label">AFTER RICHARD</div>
-                    <h3>Ranked Shortlist.<br />Minutes, Not Hours.</h3>
-                    <ul class="ba-list">
-                        <li>Pulls all candidates automatically</li>
-                        <li>Scores on defined, consistent criteria</li>
-                        <li>GitHub checked — every single time</li>
-                        <li>Strong Yes / Maybe / No classification</li>
-                        <li>Red flags explicitly flagged</li>
-                        <li>Same criteria every time</li>
-                    </ul>
-                    <div class="ba-stat">
-                        <div class="num">10 min</div>
-                        <div class="unit">REVIEW — DOWN FROM 1-2 HRS/SESSION</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="slide slide-output">
-            <div class="output-layout">
-                <div class="output-file reveal">
-                    <div class="file-header">
-                        <div class="file-dot r"></div>
-                        <div class="file-dot y"></div>
-                        <div class="file-dot g"></div>
-                        <div class="file-name">richard-report.md</div>
-                    </div>
-                    <div class="file-body"><span class="hl">## Screening — Cohort 7</span><br><br><span
-                            class="hl">STRONG YES (5):</span><br><span class="mt">1. Priya M. — 847 contributions, 3 ML
-                            projects, builder mindset</span><br><span class="mt">2. Alex T. — Active OSS, realistic
-                            about LLM limits</span><br><span class="mt">3. Ravi K. — Solo-shipped production RAG
-                            system</span><br><br><span class="hl">RED FLAGS:</span><br><span class="mt">⚠ 3 candidates:
-                            GitHub inactive 6+ months</span><br><span class="mt">⚠ 2 candidates: keyword stuffing</span>
-                    </div>
-                </div>
-                <div class="output-cta reveal">
-                    <h2>200+ applications →<br /><em>15 ranked. Scored. Flagged.</em></h2>
-                    <p>Richard checks what humans skip: every GitHub, every claim, every inconsistency. Same criteria,
-                        every time.</p>
-                    <div class="cta-metrics">
-                        <div class="cta-metric">
-                            <div class="n">92%</div>
-                            <div class="l">TIME SAVED</div>
-                        </div>
-                        <div class="cta-metric">
-                            <div class="n">100%</div>
-                            <div class="l">GITHUB CHECKED</div>
-                        </div>
-                        <div class="cta-metric">
-                            <div class="n">0</div>
-                            <div class="l">BIAS</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="slide slide-pipe">
-            <div class="pipe-header">
-                <h2 class="reveal">Richard's <em>Task Pipeline</em></h2>
-                <p class="reveal">On-demand via WhatsApp. Deterministic scoring.</p>
-            </div>
-            <div class="pipe-flow">
-                <div class="pipe-step reveal">
-                    <div class="sn">1</div>
-                    <div class="st">Trigger</div>
-                    <div class="sd">WhatsApp command</div>
-                </div>
-                <div class="pa reveal">→</div>
-                <div class="pipe-step reveal">
-                    <div class="sn">2</div>
-                    <div class="st">Pull</div>
-                    <div class="sd">Sheets candidate data</div>
-                </div>
-                <div class="pa reveal">→</div>
-                <div class="pipe-step reveal">
-                    <div class="sn">3</div>
-                    <div class="st">Score</div>
-                    <div class="sd">GitHub + projects + mindset</div>
-                </div>
-                <div class="pa reveal">→</div>
-                <div class="pipe-step reveal">
-                    <div class="sn">4</div>
-                    <div class="st">Rank</div>
-                    <div class="sd">Strong Yes / Maybe / No</div>
-                </div>
-                <div class="pa reveal">→</div>
-                <div class="pipe-step reveal">
-                    <div class="sn">5</div>
-                    <div class="st">Report</div>
-                    <div class="sd">Shortlist → WhatsApp</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="slide slide-bento">
-            <div class="bento">
-                <div class="bt reveal"
-                    style="grid-column:1/5;grid-row:1/3;background:linear-gradient(135deg,rgba(20,20,20,0.8),rgba(30,30,30,0.5));backdrop-filter:blur(20px);">
-                    <div class="tl" style="color:var(--text-dim);">INPUT</div>
-                    <div class="tv" style="font-size:56px;">200+</div>
-                    <div class="ts">Raw applications per cohort</div>
-                </div>
-                <div class="bt reveal"
-                    style="grid-column:5/13;grid-row:1/2;background:linear-gradient(135deg,rgba(20,20,20,0.8),rgba(30,30,30,0.5));backdrop-filter:blur(20px);">
-                    <div class="tl" style="color:var(--text-dim);">TIME RECLAIMED PER SESSION</div>
-                    <div class="impact-stat"><span class="impact-old">2 hrs</span><span
-                            class="impact-arrow">→</span><span class="impact-new">10</span><span class="impact-unit">min
-                            review</span></div>
-                </div>
-                <div class="bt reveal"
-                    style="grid-column:5/10;grid-row:2/3;background:linear-gradient(135deg,rgba(40,30,10,0.8),rgba(55,40,15,0.6));backdrop-filter:blur(20px);border-color:rgba(200,160,60,0.15);">
-                    <div class="tl" style="color:#ccaa44;">OUTPUT</div>
-                    <div class="tv" style="color:#eebb44;font-size:36px;">15</div>
-                    <div class="ts" style="color:#ccaa44;">Ranked candidates. Scored. Noted.</div>
-                </div>
-                <div class="bt reveal"
-                    style="grid-column:10/13;grid-row:2/4;background:linear-gradient(135deg,rgba(10,30,10,0.8),rgba(15,40,15,0.6));backdrop-filter:blur(20px);border-color:rgba(60,140,60,0.15);">
-                    <div class="tl" style="color:#88bb88;">GITHUB</div>
-                    <div class="tv" style="color:#bbddbb;font-size:28px;">Checked.<br />Every. Time.</div>
-                    <div class="ts" style="color:#88bb88;">Not just the resume. Activity, projects, patterns.</div>
-                </div>
-                <div class="bt reveal"
-                    style="grid-column:1/4;grid-row:3/5;background:linear-gradient(135deg,rgba(20,20,20,0.8),rgba(28,28,28,0.5));backdrop-filter:blur(20px);">
-                    <div class="tl" style="color:var(--text-dim);">TRIGGER</div>
-                    <div class="tv" style="font-size:14px;">"Richard, screen<br />Cohort 7"</div>
-                    <div class="ts">On-demand via WhatsApp</div>
-                </div>
-                <div class="bt bt-center reveal" style="grid-column:4/10;grid-row:3/5;">
-                    <div class="center-name">Richard</div>
-                    <div class="center-role">Hiring Agent</div>
-                </div>
-                <div class="bt reveal"
-                    style="grid-column:10/13;grid-row:4/5;background:linear-gradient(135deg,rgba(249,104,70,0.06),rgba(249,104,70,0.02));backdrop-filter:blur(20px);border-color:rgba(249,104,70,0.1);">
-                    <div class="tl" style="color:var(--coral);">SCORING</div>
-                    <div class="tv" style="color:var(--coral);font-size:14px;">GitHub + Projects + Mindset</div>
-                </div>
-                <div class="bt reveal"
-                    style="grid-column:1/4;grid-row:5/7;background:linear-gradient(135deg,rgba(50,15,15,0.8),rgba(70,20,20,0.6));backdrop-filter:blur(20px);border-color:rgba(200,60,60,0.15);">
-                    <div class="tl" style="color:#cc6666;">RED FLAGS</div>
-                    <div class="tv" style="color:#ee8888;font-size:16px;">Keyword stuffing. No projects.</div>
-                    <div class="ts" style="color:#cc6666;">Zero tolerance.</div>
-                </div>
-                <div class="bt reveal"
-                    style="grid-column:4/10;grid-row:5/7;background:linear-gradient(135deg,rgba(20,20,20,0.8),rgba(30,30,30,0.5));backdrop-filter:blur(20px);">
-                    <div class="tl" style="color:var(--text-dim);">CONSISTENCY</div>
-                    <div class="tv" style="font-size:20px;">Same criteria every time</div>
-                    <div class="ts">No gut-feeling variance. Deterministic.</div>
-                </div>
-                <div class="bt bt-light reveal" style="grid-column:10/13;grid-row:5/7;">
-                    <div class="tl">CLASSIFICATION</div>
-                    <div class="tv" style="font-size:14px;">Strong Yes / Maybe / No</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- ====== SHELDON ====== -->
     <section class="agent-section" id="agent-sheldon">
         <div class="slide slide-opt">
@@ -2957,11 +2752,14 @@
                     <div class="opt-letter">O</div>
                     <div class="opt-word">Operating Model</div>
                     <ul class="opt-bullets">
-                        <li>Our product is transformation — students shipping real AI systems</li>
-                        <li>Curriculum must stay ahead of where students actually struggle</li>
-                        <li>Decisions must be data-driven, not anecdote-driven</li>
+                        <li><strong>Role:</strong> 100xEngineers' product is transformation — students going from zero
+                            to shipping real AI systems</li>
+                        <li><strong>Success looks like:</strong> Curriculum adapts weekly to real student confusion, not
+                            guesswork or delayed complaints</li>
+                        <li><strong>Why it breaks:</strong> Without data, I'm making curriculum decisions based on
+                            memory and anecdotes — I miss the real patterns</li>
                     </ul>
-                    <div class="opt-key">→ DATA-DRIVEN CURRICULUM, NOT GUESSWORK</div>
+                    <div class="opt-key">→ STUDENT STRUGGLE = CURRICULUM SIGNAL</div>
                 </div>
                 <div class="opt-card reveal">
                     <div class="opt-letter">P</div>
@@ -2973,7 +2771,7 @@
                         <li>I browse #help, #general, #projects by hand</li>
                         <li>I summarize patterns from memory</li>
                         <li>I make curriculum decisions on incomplete picture</li>
-                        <li>This costs 45-60 minutes — done only when I have time</li>
+                        <li>This costs 45 minutes — and I only do it when I have time</li>
                     </ul>
                     <div class="opt-key">→ CRITICAL SIGNALS MISSED, DECISIONS DELAYED</div>
                 </div>
@@ -3021,7 +2819,7 @@
                     </ul>
                     <div class="ba-stat">
                         <div class="num">5 min</div>
-                        <div class="unit">READING — DOWN FROM 45-60 MIN</div>
+                        <div class="unit">READING — DOWN FROM 45 MIN/WEEK</div>
                     </div>
                 </div>
             </div>
@@ -3050,8 +2848,8 @@
                         there — just too buried.</p>
                     <div class="cta-metrics">
                         <div class="cta-metric">
-                            <div class="n">92%</div>
-                            <div class="l">TIME SAVED</div>
+                            <div class="n">~40 min</div>
+                            <div class="l">SAVED / WEEK</div>
                         </div>
                         <div class="cta-metric">
                             <div class="n">On-demand</div>
@@ -3115,7 +2913,7 @@
                 <div class="bt reveal"
                     style="grid-column:6/13;grid-row:1/2;background:linear-gradient(135deg,rgba(20,20,20,0.8),rgba(30,30,30,0.5));backdrop-filter:blur(20px);">
                     <div class="tl" style="color:var(--text-dim);">TIME RECLAIMED</div>
-                    <div class="impact-stat"><span class="impact-old">60 min</span><span
+                    <div class="impact-stat"><span class="impact-old">45 min</span><span
                             class="impact-arrow">→</span><span class="impact-new">5</span><span class="impact-unit">min
                             reading</span></div>
                 </div>
@@ -3165,6 +2963,232 @@
             </div>
         </div>
     </section>
+
+
+    <!-- ====== RICHARD ====== -->
+    <section class="agent-section" id="agent-richard">
+        <div class="slide slide-opt">
+            <div class="opt-header">
+                <h2 class="reveal"><span>OPT</span> Framework — Richard</h2>
+                <p class="reveal">Why Richard exists — and why it works</p>
+            </div>
+            <div class="opt-grid">
+                <div class="opt-card reveal">
+                    <div class="opt-letter">O</div>
+                    <div class="opt-word">Operating Model</div>
+                    <ul class="opt-bullets">
+                        <li><strong>Role:</strong> Cohort quality IS product quality — the wrong candidates lower
+                            engagement and damage the 100xEngineers brand</li>
+                        <li><strong>Success looks like:</strong> Every cohort filled with real builders, screened on
+                            GitHub activity and projects, not just resumes</li>
+                        <li><strong>Why it breaks:</strong> Manual screening = gut-feeling bias, skipped GitHub checks,
+                            and inconsistent criteria across sessions</li>
+                    </ul>
+                    <div class="opt-key">→ BUILDERS IN, RESUME-POLISHERS OUT</div>
+                </div>
+                <div class="opt-card reveal">
+                    <div class="opt-letter">P</div>
+                    <div class="opt-word">Process</div>
+                    <ul class="opt-bullets">
+                        <li>I open Google Sheets with candidate applications</li>
+                        <li>I read each row: 50-200 candidates per cohort</li>
+                        <li>I check GitHub profiles, portfolios, LinkedIn manually</li>
+                        <li>I score based on gut feeling + loose criteria</li>
+                        <li>I make a shortlist and write notes</li>
+                        <li>This costs me 90 minutes per session</li>
+                        <li>Inconsistent — bias toward polished resumes over builders</li>
+                    </ul>
+                    <div class="opt-key">→ BIAS TOWARD RESUMES OVER REAL ABILITY</div>
+                </div>
+                <div class="opt-card reveal">
+                    <div class="opt-letter">T</div>
+                    <div class="opt-word">Task</div>
+                    <ul class="opt-bullets">
+                        <li>Pull candidate data from Google Sheets</li>
+                        <li>Score each (GitHub activity, project quality, builder mindset)</li>
+                        <li>Strong Yes / Maybe / No classification</li>
+                        <li>2-3 line notes per shortlisted candidate</li>
+                        <li>Flag red flags (no projects, keyword stuffing)</li>
+                        <li>Produce ranked report — Sid approves</li>
+                    </ul>
+                    <div class="opt-key">→ JUDGMENT STAYS HUMAN. SCREENING DOESN'T.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide slide-ba">
+            <div class="ba-container">
+                <div class="ba-card ba-before reveal">
+                    <div class="ba-label">BEFORE RICHARD</div>
+                    <h3>Row by Row.<br />200 Applications.</h3>
+                    <ul class="ba-list">
+                        <li>Open Sheets, read each row manually</li>
+                        <li>50-200 candidates per cohort</li>
+                        <li>Check GitHub, portfolios, LinkedIn by hand</li>
+                        <li>Score based on gut feeling</li>
+                        <li>Make shortlist, write notes</li>
+                        <li>Bias toward polished resumes</li>
+                    </ul>
+                </div>
+                <div class="ba-arrow reveal">→</div>
+                <div class="ba-card ba-after reveal">
+                    <div class="ba-label">AFTER RICHARD</div>
+                    <h3>Ranked Shortlist.<br />Minutes, Not Hours.</h3>
+                    <ul class="ba-list">
+                        <li>Pulls all candidates automatically</li>
+                        <li>Scores on defined, consistent criteria</li>
+                        <li>GitHub checked — every single time</li>
+                        <li>Strong Yes / Maybe / No classification</li>
+                        <li>Red flags explicitly flagged</li>
+                        <li>Same criteria every time</li>
+                    </ul>
+                    <div class="ba-stat">
+                        <div class="num">10 min</div>
+                        <div class="unit">REVIEW — DOWN FROM 90 MIN/SESSION</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide slide-output">
+            <div class="output-layout">
+                <div class="output-file reveal">
+                    <div class="file-header">
+                        <div class="file-dot r"></div>
+                        <div class="file-dot y"></div>
+                        <div class="file-dot g"></div>
+                        <div class="file-name">richard-report.md</div>
+                    </div>
+                    <div class="file-body"><span class="hl">## Screening — Cohort 7</span><br><br><span
+                            class="hl">STRONG YES (5):</span><br><span class="mt">1. Priya M. — 847 contributions, 3 ML
+                            projects, builder mindset</span><br><span class="mt">2. Alex T. — Active OSS, realistic
+                            about LLM limits</span><br><span class="mt">3. Ravi K. — Solo-shipped production RAG
+                            system</span><br><br><span class="hl">RED FLAGS:</span><br><span class="mt">⚠ 3 candidates:
+                            GitHub inactive 6+ months</span><br><span class="mt">⚠ 2 candidates: keyword stuffing</span>
+                    </div>
+                </div>
+                <div class="output-cta reveal">
+                    <h2>200+ applications →<br /><em>15 ranked. Scored. Flagged.</em></h2>
+                    <p>Richard checks what humans skip: every GitHub, every claim, every inconsistency. Same criteria,
+                        every time.</p>
+                    <div class="cta-metrics">
+                        <div class="cta-metric">
+                            <div class="n">~80 min</div>
+                            <div class="l">SAVED / SESSION</div>
+                        </div>
+                        <div class="cta-metric">
+                            <div class="n">100%</div>
+                            <div class="l">GITHUB CHECKED</div>
+                        </div>
+                        <div class="cta-metric">
+                            <div class="n">0</div>
+                            <div class="l">BIAS</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide slide-pipe">
+            <div class="pipe-header">
+                <h2 class="reveal">Richard's <em>Task Pipeline</em></h2>
+                <p class="reveal">On-demand via WhatsApp. Deterministic scoring.</p>
+            </div>
+            <div class="pipe-flow">
+                <div class="pipe-step reveal">
+                    <div class="sn">1</div>
+                    <div class="st">Trigger</div>
+                    <div class="sd">WhatsApp command</div>
+                </div>
+                <div class="pa reveal">→</div>
+                <div class="pipe-step reveal">
+                    <div class="sn">2</div>
+                    <div class="st">Pull</div>
+                    <div class="sd">Sheets candidate data</div>
+                </div>
+                <div class="pa reveal">→</div>
+                <div class="pipe-step reveal">
+                    <div class="sn">3</div>
+                    <div class="st">Score</div>
+                    <div class="sd">GitHub + projects + mindset</div>
+                </div>
+                <div class="pa reveal">→</div>
+                <div class="pipe-step reveal">
+                    <div class="sn">4</div>
+                    <div class="st">Rank</div>
+                    <div class="sd">Strong Yes / Maybe / No</div>
+                </div>
+                <div class="pa reveal">→</div>
+                <div class="pipe-step reveal">
+                    <div class="sn">5</div>
+                    <div class="st">Report</div>
+                    <div class="sd">Shortlist → WhatsApp</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide slide-bento">
+            <div class="bento">
+                <div class="bt reveal"
+                    style="grid-column:1/5;grid-row:1/3;background:linear-gradient(135deg,rgba(20,20,20,0.8),rgba(30,30,30,0.5));backdrop-filter:blur(20px);">
+                    <div class="tl" style="color:var(--text-dim);">INPUT</div>
+                    <div class="tv" style="font-size:56px;">200+</div>
+                    <div class="ts">Raw applications per cohort</div>
+                </div>
+                <div class="bt reveal"
+                    style="grid-column:5/13;grid-row:1/2;background:linear-gradient(135deg,rgba(20,20,20,0.8),rgba(30,30,30,0.5));backdrop-filter:blur(20px);">
+                    <div class="tl" style="color:var(--text-dim);">TIME RECLAIMED PER SESSION</div>
+                    <div class="impact-stat"><span class="impact-old">90 min</span><span
+                            class="impact-arrow">→</span><span class="impact-new">10</span><span class="impact-unit">min
+                            review</span></div>
+                </div>
+                <div class="bt reveal"
+                    style="grid-column:5/9;grid-row:2/3;background:linear-gradient(135deg,rgba(40,30,10,0.8),rgba(55,40,15,0.6));backdrop-filter:blur(20px);border-color:rgba(200,160,60,0.15);">
+                    <div class="tl" style="color:#ccaa44;">OUTPUT</div>
+                    <div class="tv" style="color:#eebb44;font-size:36px;">15</div>
+                    <div class="ts" style="color:#ccaa44;">Ranked candidates. Scored. Noted.</div>
+                </div>
+                <div class="bt reveal"
+                    style="grid-column:9/13;grid-row:2/4;background:linear-gradient(135deg,rgba(10,30,10,0.8),rgba(15,40,15,0.6));backdrop-filter:blur(20px);border-color:rgba(60,140,60,0.15);">
+                    <div class="tl" style="color:#88bb88;">GITHUB</div>
+                    <div class="tv" style="color:#bbddbb;font-size:28px;">Checked.<br />Every. Time.</div>
+                    <div class="ts" style="color:#88bb88;">Not just the resume. Activity, projects, patterns.</div>
+                </div>
+                <div class="bt reveal"
+                    style="grid-column:1/4;grid-row:3/5;background:linear-gradient(135deg,rgba(20,20,20,0.8),rgba(28,28,28,0.5));backdrop-filter:blur(20px);">
+                    <div class="tl" style="color:var(--text-dim);">TRIGGER</div>
+                    <div class="tv" style="font-size:14px;">"Richard, screen<br />Cohort 7"</div>
+                    <div class="ts">On-demand via WhatsApp</div>
+                </div>
+                <div class="bt bt-center reveal" style="grid-column:4/10;grid-row:3/5;">
+                    <div class="center-name">Richard</div>
+                    <div class="center-role">Hiring Agent</div>
+                </div>
+                <div class="bt reveal"
+                    style="grid-column:10/13;grid-row:4/5;background:linear-gradient(135deg,rgba(249,104,70,0.06),rgba(249,104,70,0.02));backdrop-filter:blur(20px);border-color:rgba(249,104,70,0.1);">
+                    <div class="tl" style="color:var(--coral);">SCORING</div>
+                    <div class="tv" style="color:var(--coral);font-size:14px;">GitHub + Projects + Mindset</div>
+                </div>
+                <div class="bt reveal"
+                    style="grid-column:1/4;grid-row:5/7;background:linear-gradient(135deg,rgba(50,15,15,0.8),rgba(70,20,20,0.6));backdrop-filter:blur(20px);border-color:rgba(200,60,60,0.15);">
+                    <div class="tl" style="color:#cc6666;">RED FLAGS</div>
+                    <div class="tv" style="color:#ee8888;font-size:16px;">Keyword stuffing. No projects.</div>
+                    <div class="ts" style="color:#cc6666;">Zero tolerance.</div>
+                </div>
+                <div class="bt reveal"
+                    style="grid-column:4/10;grid-row:5/7;background:linear-gradient(135deg,rgba(20,20,20,0.8),rgba(30,30,30,0.5));backdrop-filter:blur(20px);">
+                    <div class="tl" style="color:var(--text-dim);">CONSISTENCY</div>
+                    <div class="tv" style="font-size:20px;">Same criteria every time</div>
+                    <div class="ts">No gut-feeling variance. Deterministic.</div>
+                </div>
+                <div class="bt bt-light reveal" style="grid-column:10/13;grid-row:5/7;">
+                    <div class="tl">CLASSIFICATION</div>
+                    <div class="tv" style="font-size:14px;">Strong Yes / Maybe / No</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <script>
         // ====== TAB SWITCHING ======
